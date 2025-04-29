@@ -43,3 +43,6 @@ nav a:hover {
 	color: #8f1010;
 	text-decoration: underline;
 }
+main{
+    border: 30px;
+}
