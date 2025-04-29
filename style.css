@@ -1,5 +1,6 @@
 header{
     background-color: #000000;
+    padding: 20px 0;
 
 }
 
@@ -8,10 +9,7 @@ header{
 	width: 940px;
 	margin: 0 auto;
 }
-
-#logo {
-    width: 100px;
-}
+  
 nav {
 	position: absolute;
 	top: 110px;
@@ -32,6 +30,6 @@ nav a {
 }
 
 nav a:hover {
-	color: #c51717;
+	color: #8f1010;
 	text-decoration: underline;
 }
