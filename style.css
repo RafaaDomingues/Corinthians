@@ -15,28 +15,8 @@ header{
     width: 100px;
   }
 
-nav {
-    
+nav { 
 	position: absolute;
 	top: 110px;
 	right: 0;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #ffffff;
-    font-family: "Playfair Display", serif;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: #8f1010;
-	text-decoration: underline;
-}
+} 
