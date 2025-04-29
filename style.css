@@ -9,7 +9,10 @@ header{
 	width: 940px;
 	margin: 0 auto;
 }
-  
+  #logo {
+    width: 100px;
+  }
+
 nav {
 	position: absolute;
 	top: 110px;
@@ -23,7 +26,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
