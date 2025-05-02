@@ -1,5 +1,5 @@
 main{
-    background: linear-gradient(black, white);
+    background: linear-gradient(black, white 80%);
 }
 
 header{
@@ -54,6 +54,9 @@ h1{
 #titulo {
     color: #ffffff;
     font-weight: bold;
+}
+#socrates {
+    color: #ffffff;
 }
 p{
     font-size: 25px;
