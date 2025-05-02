@@ -51,11 +51,13 @@ h1{
     font-weight: bold;
 }
 
-#titulo {
+.titulo {
     color: #ffffff;
     font-weight: bold;
 }
-
+.paragrafo {
+    color: #ffffff;
+}
 p{
     font-size: 25px;
     margin: 0 10% 2em;
