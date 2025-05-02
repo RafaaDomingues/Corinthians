@@ -1,5 +1,5 @@
 main{
-    background: linear-gradient(black, white 80%);
+    background: linear-gradient(black, white 90%);
 }
 
 header{
@@ -11,7 +11,10 @@ header{
 .caixa {
     position: relative;
 	width: 940px ;
-	margin: 0 auto;}
+	margin: 0 auto;
+    display: flex;
+}
+
 
 #logo {
     width: 100px;
