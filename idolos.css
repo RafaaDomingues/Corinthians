@@ -58,6 +58,9 @@ h1{
 .paragrafo {
     color: #ffffff;
 }
+#carioca {
+    color: rgba(255 255 255 0.8);
+}
 p{
     font-size: 25px;
     margin: 0 10% 2em;
