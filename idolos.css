@@ -59,10 +59,7 @@ h1{
     color: #ffffff;
 }
 
-p .carioca {
-    color: white;
-    opacity: 0.9;
-}
+
 
 p{
     font-size: 25px;
@@ -70,4 +67,9 @@ p{
     margin-top: 20px;
     text-align: center;
     line-height: 1.1;
+}
+ 
+.carioca {
+    color: white;
+    opacity: 0.9;
 }
