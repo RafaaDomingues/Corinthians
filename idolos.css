@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(black,white);
+    background: black;
 }
 
 header{
@@ -49,16 +49,10 @@ h1{
     text-align: center;
     padding: 30px;
     font-weight: bold;
-    text-shadow: #c71919;
+    color: #ffffff;
 }
 
-.titulo {
-    color: #ffffff;
-    font-weight: bold;
-}
-.paragrafo {
-    color: #ffffff;
-}
+
 
 p{
     font-size: 25px;
@@ -66,9 +60,6 @@ p{
     margin-top: 20px;
     text-align: center;
     line-height: 1.1;
+    color: #ffffff;
 }
  
-#carioca {
-    color: white;
-
-}
