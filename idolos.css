@@ -65,5 +65,5 @@ p{
 }
  
 img {
-    float: inline-start;
+    display: flex;
 }
