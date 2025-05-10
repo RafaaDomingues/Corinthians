@@ -55,7 +55,7 @@ h2{
 }
 
 h3{
-  color: #ffffff;
+  color: #c71919;
   font-size: 30px;
   text-align: center;
   padding: 20px;
@@ -71,6 +71,6 @@ p{
   line-height: 1.1;
 }
 
-.video {
+iframe {
   text-align: center;
 }
