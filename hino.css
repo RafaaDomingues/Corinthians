@@ -43,9 +43,8 @@ nav a:hover {
 	color: #c71919;
 	text-decoration: underline;
 }
-
-
-h2{
+ 
+h2, h3{
   color: #ffffff;
     font-family:  "Playfair Display", serif;
     font-size: 40px;
