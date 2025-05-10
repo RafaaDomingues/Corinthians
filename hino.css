@@ -44,13 +44,22 @@ nav a:hover {
 	text-decoration: underline;
 }
  
-h2, h3{
+h2{
   color: #ffffff;
     font-family:  "Playfair Display", serif;
     font-size: 40px;
     text-align: center;
     padding: 30px;
     font-weight: bold;
+    text-shadow: 2px 1px #c71919;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
 }
 
 p{
