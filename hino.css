@@ -44,10 +44,19 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-h1 {
-  color: #ffffff;
+
+h1{
+    font-family:  "Playfair Display", serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
 }
 
-p {
-  color: #ffffff;
+p{
+    font-size: 25px;
+    margin: 0 10% 2em;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.1;
 }
