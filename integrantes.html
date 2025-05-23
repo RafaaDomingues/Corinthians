@@ -52,23 +52,14 @@
         <label for="habilidades">Quais habilidades ou experiências você pode compartilhar com o grupo?</label>
         <textarea id="habilidades" name="habilidades" rows="4"></textarea>
 
-        <label>Qual é a sua disponibilidade de tempo?</label>
-        <div class="checkbox-group">
-            <input type="checkbox" id="manha" name="disponibilidade[]" value="Manhã">
-            <label for="manha">Manhã</label><br>
-            <input type="checkbox" id="tarde" name="disponibilidade[]" value="Tarde">
-            <label for="tarde">Tarde</label><br>
-            <input type="checkbox" id="noite" name="disponibilidade[]" value="Noite">
-            <label for="noite">Noite</label><br>
-            <input type="checkbox" id="fins" name="disponibilidade[]" value="Fins de semana">
-            <label for="fins">Fins de semana</label>
-        </div>
+            <label><input type="checkbox" name="disponibilidade" value="manha"> Manhã</label><br>
+    <label><input type="checkbox" name="disponibilidade" value="tarde"> Tarde</label><br>
+    <label><input type="checkbox" name="disponibilidade" value="noite"> Noite</label><br>
+    <label><input type="checkbox" name="disponibilidade" value="fins_de_semana"> Fins de semana</label><br>
 
-        <label>Você concorda em seguir as regras e valores do grupo?</label>
-        <input type="radio" id="sim" name="concorda" value="Sim" required>
-        <label for="sim">Sim</label>
-        <input type="radio" id="nao" name="concorda" value="Não" required>
-        <label for="nao">Não</label>
+    <p>Você concorda em seguir as regras e valores do grupo?</p>
+    <label><input type="radio" name="concorda" value="sim"> Sim</label><br>
+    <label><input type="radio" name="concorda" value="nao"> Não</label><br>
 
         <label for="origem">Como ficou sabendo do grupo?</label>
         <select id="origem" name="origem" required>
