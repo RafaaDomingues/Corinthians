@@ -23,11 +23,59 @@
         </nav>
         </div>
     </header>
-    <form action="isncricao">
+   
+    <h2>Formulário de Inscrição - Participação no Grupo</h2>
+
+    <form action="seu_script_de_envio.php" method="POST">
         <label for="nome">Nome Completo:</label>
-        <input type="text" id="nome" required>
-        <label for="data">Data de Nascimento</label>
-        <input type="text" id="data" required>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone/WhatsApp:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="cidade">Cidade/Estado:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <label for="motivo">Por que você quer fazer parte deste grupo?</label>
+        <textarea id="motivo" name="motivo" rows="4" required></textarea>
+
+        <label for="habilidades">Quais habilidades ou experiências você pode compartilhar com o grupo?</label>
+        <textarea id="habilidades" name="habilidades" rows="4"></textarea>
+
+        <label>Qual é a sua disponibilidade de tempo?</label>
+        <div class="checkbox-group">
+            <input type="checkbox" id="manha" name="disponibilidade[]" value="Manhã">
+            <label for="manha">Manhã</label><br>
+            <input type="checkbox" id="tarde" name="disponibilidade[]" value="Tarde">
+            <label for="tarde">Tarde</label><br>
+            <input type="checkbox" id="noite" name="disponibilidade[]" value="Noite">
+            <label for="noite">Noite</label><br>
+            <input type="checkbox" id="fins" name="disponibilidade[]" value="Fins de semana">
+            <label for="fins">Fins de semana</label>
+        </div>
+
+        <label>Você concorda em seguir as regras e valores do grupo?</label>
+        <input type="radio" id="sim" name="concorda" value="Sim" required>
+        <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="concorda" value="Não" required>
+        <label for="nao">Não</label>
+
+        <label for="origem">Como ficou sabendo do grupo?</label>
+        <select id="origem" name="origem" required>
+            <option value="">Selecione</option>
+            <option value="Indicação de amigo">Indicação de amigo</option>
+            <option value="Redes sociais">Redes sociais</option>
+            <option value="Site oficial">Site oficial</option>
+            <option value="Outro">Outro</option>
+        </select>
+
+        <button type="submit">Enviar Inscrição</button>
     </form>
 </body>
 </html>
