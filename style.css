@@ -74,3 +74,7 @@ p strong {
 .mapa p {
     margin: 0% 10% 2em;
 }
+
+li:before {
+    content: "★";
+}

@@ -79,3 +79,7 @@ p{
     align-items: center;
     padding: 50px;
  }
+ 
+li:before {
+    content: "★";
+}
