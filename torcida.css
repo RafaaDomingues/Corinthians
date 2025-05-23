@@ -46,6 +46,10 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+#gavioes {
+    width: 100%;
+}
+
 h2{
     color: #c71919;
     font-family:  "Playfair Display", serif;
@@ -65,8 +69,4 @@ p, li{
 
 p strong {
     color: #c71919;
-}
-
-#gavioes {
-    width: 100%;
 }
