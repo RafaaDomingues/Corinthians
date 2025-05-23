@@ -44,3 +44,25 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+img {
+	width: 220px;
+}
+
+
+h2{
+    color: #ffffff;
+    font-family:  "Playfair Display", serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    text-shadow: 2px 1px #c71919;
+}
+
+p{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 10% 2em;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.1;}
