@@ -74,6 +74,6 @@ p strong {
 li {
     list-style: none;
 }
-li:before {
+.curiosidades li:before {
     content: "★";
 }
