@@ -73,3 +73,8 @@ p{
     flex-direction: row-reverse;
     padding: 5%;
  }
+ 
+ .cassio {
+    float: right;
+    padding: 5px;
+ }
