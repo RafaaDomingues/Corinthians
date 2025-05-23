@@ -70,3 +70,10 @@ p, li{
 p strong {
     color: #c71919;
 }
+
+li {
+    list-style: none;
+}
+li::before {
+    content: "★";
+}
