@@ -55,7 +55,7 @@ h2{
      text-shadow: 1px 1px #ffffff;
 }
 
-p{
+p, li{
     color: #ffffff;
     font-size: 25px;
     margin: 0 10% 2em;
