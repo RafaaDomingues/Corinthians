@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 form{
-    color: #ffffff;
+    color: #000000;
 }
         
 h2{
@@ -63,7 +63,7 @@ form {
     border-radius: 8px;
     max-width: 500px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-	color: #ffffff;
+	color: #000000;
     font-size: 25px;
     margin: 0 10% 2em;
     margin-top: 20px;
