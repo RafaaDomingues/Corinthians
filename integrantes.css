@@ -102,3 +102,9 @@ button:hover {
     background-color:  #c71919;
 }
 
+#sao-jorge {
+    position: absolute;
+    display: inline-block;
+    top: 302px;
+    left: 65%;
+}
