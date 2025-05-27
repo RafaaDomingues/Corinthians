@@ -102,6 +102,3 @@ button:hover {
     background-color:  #c71919;
 }
 
-li:before {
-    content: "★";
-}
