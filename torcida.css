@@ -74,6 +74,3 @@ p strong {
 li {
     list-style: none;
 }
-li:before {
-    content: "★";
-}
